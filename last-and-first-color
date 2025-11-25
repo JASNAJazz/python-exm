@@ -1,0 +1,2 @@
+colors = input().split(',')
+print("First:", colors[0], "Last:", colors[-1])
