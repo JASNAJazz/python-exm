@@ -1,0 +1,7 @@
+class B:
+    def _init_(s,a,n,t,b):s.b=b
+    def d(s,x):s.b+=x
+    def w(s,x):s.b-=x if s.b>=x else print("NoBal")
+
+b=B(input(),input(),input(),float(input()))
+b.d(float(input()));b.w(float(input()));print(b.b)
