@@ -1,0 +1,7 @@
+class R:
+    def _init_(s,l,b):s.l=l;s.b=b
+    def a(s):return s.l*s.b
+    def p(s):return 2*(s.l+s.b)
+
+r1=R(int(input()),int(input()));r2=R(int(input()),int(input()))
+print(r1.a(),r1.p(),r2.a(),r2.p(),("R1<R2", "R2<R1")[r1.a()>r2.a()])
