@@ -1,0 +1,6 @@
+class R:
+    def _init(s,l,w):s.l=l;s._w=w
+    def a(s):return s._l*s._w
+    def _lt_(s,o):return s.a()<o.a()
+
+print(R(int(input()),int(input()))<R(int(input()),int(input())))
