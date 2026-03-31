@@ -1,0 +1,1 @@
+create an abstract class shape with an abstract method area().derive two classes rectangle and circle from the shape class and impliment the area() method in each class. write a java program to display the area of the rectangle and circle using abstraction
